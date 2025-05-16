@@ -65,7 +65,7 @@ Shows the 14-day Relative Strength Index (RSI), a momentum indicator.
 
 ---
 
-## 4. Model Training Process: LSTM for Stock Price Prediction
+## 5. Model Training Process: LSTM for Stock Price Prediction
 
 ### Data Preparation
 
@@ -95,7 +95,7 @@ Shows the 14-day Relative Strength Index (RSI), a momentum indicator.
 
 ---
 
-## 5. Defining the final dataset for testing by including last 100 coloums of the Model Training with GBTRegressor 
+## 6. Defining the final dataset for testing by including last 100 coloums of the Model Training with GBTRegressor 
 We keep just the six core columns. ("Date","Open","High","Low","Close","Volume")
 yfinance pulls historical OHLC+Volume for AAPL from Jan 1, 2020 to Jan 1, 2025.
 
